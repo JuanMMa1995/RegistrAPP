@@ -1,0 +1,73 @@
+<ion-header [translucent]="true">
+
+  <ion-toolbar color="success">
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    
+    <ion-buttons slot="secondary">
+      <ion-button href="login">
+        <ion-icon slot="icon-only" name="person-circle" ></ion-icon>
+      </ion-button>      
+    </ion-buttons>
+
+    <ion-title>Inicio</ion-title>
+
+
+  </ion-toolbar> 
+   
+</ion-header>
+<ion-content color="warning" >
+  <br><br>
+  <ion-card-content>
+    <ion-row>
+      <ion-col>
+        <ion-card style="background-color: #ffc409;">
+          <ion-img src="assets/img/mi_cuenta.png"></ion-img>
+          <ion-button color="primary" href="cuenta" expand="block">Mi Cuenta</ion-button>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-card-content>
+  <br>
+  <ion-card-content>
+    <ion-row>
+      <ion-col>
+        <ion-card style="background-color: #ffc409;" >
+          <ion-img src="assets/img/Breal_News.PNG"></ion-img>
+          <ion-button color="primary" href="noticias" expand="full">Noticas</ion-button>  
+        </ion-card>
+      </ion-col>
+    </ion-row> 
+  </ion-card-content> 
+  <br>
+  <ion-card-content>
+    <ion-row>
+      <ion-col>
+        <ion-card style="background-color: #ffc409;">
+          <ion-img src="assets/img/Asistencia.png"></ion-img>
+          <ion-button color="primary" href="asistencia" expand="block">Asistencia</ion-button>  
+        </ion-card>
+      </ion-col>
+    </ion-row> 
+  </ion-card-content>
+  <br>
+
+  <ion-card-content>
+    <ion-row>
+      <ion-col>
+        <ion-card style="background-color: #ffc409;">
+          <ion-img src="assets/img/calificaciones.png"></ion-img>
+          <ion-button color="primary" href="notas" expand="block">Notas</ion-button>  
+        </ion-card>
+      </ion-col>
+    </ion-row>  
+  </ion-card-content>
+
+  <br>
+</ion-content>

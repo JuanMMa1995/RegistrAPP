@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+
+  <ion-toolbar color="success">
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+
+    <ion-buttons slot="secondary">
+      <ion-button href="login">
+        <ion-icon slot="icon-only" name="person-circle" ></ion-icon>
+      </ion-button>      
+    </ion-buttons>
+
+    <ion-title>Asistencia</ion-title>
+
+  </ion-toolbar> 
+   
+</ion-header>
+<ion-content color="warning" >
+  <br><br>
+  <ion-div id="container">
+    <ion-button color="danger" href="asistencia/profesor" expand="block">Profesor</ion-button>
+  </ion-div>
+  <br>
+  <ion-div id="container">
+    <ion-button color="dark" href="asistencia/alumno" expand="block">Alumno</ion-button>    
+  </ion-div>  
+</ion-content>
